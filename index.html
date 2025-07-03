@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titip Beli - Belanja Mudah Tanpa Ribet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background-image: url('foto/banner.png');
+            background-size: cover;
+            height: 50vh; /* Menggunakan vh untuk responsif */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(253, 252, 252);
+            font-size: 2em;
+        }
+        section {
+            padding: 20px; /* Mengurangi padding untuk responsif */
+            margin: 20px; /* Mengurangi margin untuk responsif */
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon {
+            max-width: 100%; /* Memastikan gambar responsif */
+            height: auto;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .hero {
+                font-size: 1.5em;
+                height: 30vh; /* Menyesuaikan tinggi untuk layar kecil */
+            }
+            section {
+                margin: 10px; /* Mengurangi margin untuk layar kecil */
+                padding: 10px; /* Mengurangi padding untuk layar kecil */
+            }
+
+            .cta button {
+                font-size: 1em; /* Menyesuaikan ukuran font tombol */
+            }
+        }
+        @media (max-width: 400px) {
+            .hero {
+                font-size: 1.2em; /* Menyesuaikan ukuran font untuk layar sangat kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Titip Beli - Belanja Mudah Tanpa Ribet</h1>
+</header>
+
+<div class="hero">
+    <p>Kami membantu Anda membeli kebutuhan apapun tanpa harus keluar rumah.</p>
+</div>
+<section>
+    <h2>Apa Itu Jasa Titip Beli?</h2>
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px; align-items: center;">
+        <img src="foto/hero.png" alt="Ilustrasi Belanja" class="icon">
+        <ul>
+        <p>Titip Beli adalah layanan di mana kami membantu Anda membeli barang yang Anda butuhkan dari berbagai tempat, seperti pasar, toko, supermarket, hingga grosir.</p>
+        <p>Titip Beli, Solusi Belanja Praktis!</p>
+        <p>Kami bantu belanjakan kebutuhan Anda dari pasar, toko, supermarket, hingga grosir. Hemat waktu, tanpa ribet!</p>
+    </ul>
+    </div>
+</section>
+
+<section> 
+    <h2>Kelebihan Menggunakan Titip Beli</h2>
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 10px; align-items: center;">
+        <img src="foto/gambarproseskirim.png" alt="Ilustrasi Pengiriman" class="icon">
+        <ul>
+            <li>✅ Hemat Waktu</li>
+            <li>✅ Tidak Perlu Keluar Rumah</li>
+            <li>✅ Bisa Titip Belanja Apa Saja</li>
+            <li>✅ Proses Cepat & Mudah via WhatsApp</li>
+            <li>✅ Ongkir Terjangkau</li>
+            <li>✅ Aman & Terpercaya</li>
+            <p>Nggak sempat belanja? Serahkan pada kami!</p>
+            <p>Titip Beli siap membantu Anda membeli apa pun yang Anda butuhkan, mulai dari pasar tradisional, toko sekitar, hingga supermarket dan grosir.</p>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Bisa Digunakan Untuk Apa Saja?</h2>
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 10px; align-items: center;">
+        <img src="foto/gambarprosesbelanja.png" alt="Ilustrasi Belanja" class="icon">
+        <ul>
+            <li>🛍️ Belanja harian (sayur, lauk, kebutuhan dapur)</li>
+            <li>🍔 Titip beli makanan atau minuman favorit</li>
+            <li>🏪 Belanja grosir untuk warung atau usaha kecil</li>
+            <li>🎁 Titip beli barang kebutuhan lainnya dari toko atau pasar sekitar</li>
+            <p>Titip Beli adalah layanan belanja personal untuk Anda!</p>
+            <p>Kami membantu memenuhi kebutuhan Anda dengan membelikan barang dari pasar, toko, supermarket, hingga grosir. Cepat, mudah, dan terpercaya.</p>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Cara Menggunakan Layanan Ini (Step-by-Step)</h2>
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 10px; align-items: center;">
+        <img src="foto/carapesan.png" alt="Ilustrasi Proses" class="icon">
+        <ol>
+            <li>1️⃣ Isi Form Pesanan di Website</li>
+            <li>2️⃣ Pesanan langsung masuk ke WhatsApp kami</li>
+            <li>3️⃣ Kami belanjakan dan antar ke rumah Anda</li>
+            <p>Titip Beli, Teman Belanja Andalan!</p>
+            <p>Apa pun kebutuhan Anda, cukup titip! Belanja dari pasar, toko, atau grosir jadi semudah chat. Kami yang belanjakan, Anda tinggal terima di rumah.</p>
+        </ol>
+    </div>
+</section>
+
+<div class="cta">
+    <h2>Pesan Sekarang via WhatsApp</h2>
+    <button onclick="window.open('https://titipbeli.github.io/website-pemesanan/', '_blank')">Pesan Sekarang</button>
+</div>
+<footer>
+    <p>Jam Operasional: 09:00 - 21:00</p>
+    <p>Instagram : titipbelipandeglang</p>
+</footer>
+</body>
+</html>
